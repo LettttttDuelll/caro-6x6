@@ -10,7 +10,7 @@ function Square({ value, onSquareClick }) {
 
 export default function Board() {
   const [xIsNext, setXIsNext] = useState(true);
-  const [squares, setSquares] = useState(Array(25).fill(null));
+  const [squares, setSquares] = useState(Array(36).fill(null));
 
   function handedClick(i) {
     if (squares[i] || calculateWinner(squares)) { return; }; // Ignore click if square is already filled
