@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/caro-6x6/static/css/main.a47f6eb3.css",
+    "main.js": "/caro-6x6/static/js/main.b8fa35c8.js",
+    "static/js/453.96453769.chunk.js": "/caro-6x6/static/js/453.96453769.chunk.js",
+    "index.html": "/caro-6x6/index.html",
+    "main.a47f6eb3.css.map": "/caro-6x6/static/css/main.a47f6eb3.css.map",
+    "main.b8fa35c8.js.map": "/caro-6x6/static/js/main.b8fa35c8.js.map",
+    "453.96453769.chunk.js.map": "/caro-6x6/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a47f6eb3.css",
+    "static/js/main.b8fa35c8.js"
+  ]
+}
