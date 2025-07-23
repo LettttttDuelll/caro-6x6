@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.square{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: beige;
+}
+.board-row{
+  height: 51px;
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}
