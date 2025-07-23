@@ -34,7 +34,7 @@ export default function Board() {
     status = "Winner: " + winner;
   } else if (!squares.includes(null)) {
     status = "It's a draw!, Reset the game";
-    resetGame(); // Reset the game if it's a draw
+    //resetGame(); // Reset the game if it's a draw
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
