@@ -24,12 +24,17 @@ export default function Board() {
     setXIsNext(!xIsNext); // Toggle the turn
   }
 
+  function resetGame(){
+    setSquares(Array(25).fill(null)); // Reset the squares to null
+    setXIsNext(true); // Reset the turn to X
+  }
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
     status = "Winner: " + winner;
   } else if (!squares.includes(null)) {
-    status = "It's a draw!";
+    status = "It's a draw!, Reset the game";
+    resetGame(); // Reset the game if it's a draw
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
@@ -48,6 +53,7 @@ export default function Board() {
           )}
         </div>
       )}
+      <button className='reset'onClick={()=>{resetGame()}}>Reset</button>
     </>
   );
 
